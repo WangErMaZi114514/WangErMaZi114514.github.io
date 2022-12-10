@@ -10,5 +10,5 @@ function getQueryString(name) {
     grade = getQueryString('g');
     book = getQueryString('b');
     page = getQueryString('p');
-    pageIMG.src = 'https://wangermazi114514.github.io/ebook/book_res/'+grade+'/'+book+'/'+page+'.jpg';
+    document.getElementById('pageIMG').src = 'https://wangermazi114514.github.io/ebook/book_res/'+grade+'/'+book+'/'+page+'.jpg';
  }
